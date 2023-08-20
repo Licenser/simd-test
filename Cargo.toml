@@ -11,3 +11,6 @@ serde_json = "*"
 simd-json-derive = "*"
 serde_derive = "*"
 serde = "*"
+
+[profile.release]
+codegen-units = 1
